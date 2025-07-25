@@ -1,0 +1,18 @@
+# Python dependencies for Flask server tutorial project
+# Maintains behavioral parity with Node.js Express server
+
+# Core Flask framework for HTTP server functionality
+Flask>=3.1.1
+
+# Environment variable management (equivalent to dotenv in Node.js)
+python-dotenv>=1.0.1
+
+# Cross-Origin Resource Sharing support (equivalent to cors in Node.js)
+Flask-CORS>=6.0.1
+
+# Rate limiting and API protection (equivalent to express-rate-limit in Node.js)
+Flask-Limiter>=3.12
+
+# Development and testing dependencies (optional)
+# pytest>=7.0.0  # Uncomment for Python testing framework
+# pytest-cov>=4.0.0  # Uncomment for test coverage reporting
