@@ -1,0 +1,25 @@
+{
+  "watch": [
+    "."
+  ],
+  "ext": "js,json,env",
+  "ignore": [
+    "node_modules/",
+    "coverage/",
+    "logs/",
+    "*.log",
+    "*.test.js",
+    "*.spec.js"
+  ],
+  "exec": "node server.js",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "delay": "1000",
+  "verbose": true,
+  "restartable": "rs",
+  "colours": true,
+  "legacyWatch": false,
+  "signal": "SIGTERM",
+  "killSignal": "SIGKILL"
+}
